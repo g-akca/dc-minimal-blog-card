@@ -3,54 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="icon"
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
     />
-
-    <title>devChallenges.io | Minimal Blog Card</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
+    <title>Minimal Blog Card</title>
   </head>
   <body>
-    <!-- Design
+    <main class="card">
+      <div class="card-main">
+        <img src="resources/Cactus.jpg" alt="Cactus on a purple background">
+        <span class="badge">Design</span>
 
-  Embracing Minimalism
-
-  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
-
-  Annie Spratt -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
+        <div class="card-details">
+          <h2>Embracing Minimalism</h2>
+          <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        </div>
+      </div>
+      <div id="card-author">
+        <p>Annie Spratt</p>
+      </div>
+    </main>
   </body>
 </html>
