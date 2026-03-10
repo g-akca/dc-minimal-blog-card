@@ -1,0 +1,73 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAF9;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    color: #394150;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    max-width: 368px;
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 16px 20px;
+    border-bottom: 1.5px solid #E5EAF0;
+}
+
+.card-main img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-main .badge {
+    padding: 5px 16px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #f8f5fe;
+    color: #7C19EE;
+    border-radius: 16px;
+    align-self: flex-start;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-details h2 {
+    color: #20293A;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.card-details p {
+    line-height: 21px;
+}
+
+.card-author {
+    padding: 20px 16px;
+}
+
+.card-author p {
+    font-size: 12px;
+}
